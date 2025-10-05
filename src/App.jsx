@@ -5,10 +5,15 @@ import CourseStat from "./components/courseStat.jsx";
 
 function App() {
   return (
-    <div className="font-sans">
+    <div className="font-sans min-h-screen flex flex-col">
+      {/* Navigation */}
       <Nav />
-      <Hero />
-      <CourseStat />
+
+      {/* Main Content */}
+      <main className="flex-1 px-4 sm:px-6 md:px-12 lg:px-20 py-8 space-y-8">
+        <Hero />
+        <CourseStat />
+      </main>
     </div>
   );
 }
