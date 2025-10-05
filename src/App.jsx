@@ -1,7 +1,7 @@
 // src/App.jsx
-import Nav from "./components/nav.jsx";
-import Hero from "./components/Hero/hero.jsx";
-import CourseStat from "./components/courseStat.jsx";
+import Nav from "./components/nav";
+import Hero from "./components/Hero/hero";
+import CourseStat from "./components/courseStat";
 
 function App() {
   return (
