@@ -1,6 +1,6 @@
 // src/App.jsx
 import Nav from "./components/nav";
-import Hero from "./components/Hero/hero";
+import Hero from "./components/Hero";
 import CourseStat from "./components/courseStat";
 
 function App() {
